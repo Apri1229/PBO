@@ -91,6 +91,11 @@ public class MenuMakanan extends javax.swing.JFrame {
         });
 
         txtnasigoreng.setText("0");
+        txtnasigoreng.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtnasigorengActionPerformed(evt);
+            }
+        });
 
         txtmiegoreng.setText("0");
 
@@ -377,6 +382,10 @@ public class MenuMakanan extends javax.swing.JFrame {
     private void txtmiegorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtmiegorActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_txtmiegorActionPerformed
+
+    private void txtnasigorengActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtnasigorengActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtnasigorengActionPerformed
 
     /**
      * @param args the command line arguments
